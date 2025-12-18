@@ -1,0 +1,17 @@
+type: CoreBlock
+name: "Core: Voltage"
+requirements: [
+  copper/1420
+  surge-alloy/1450
+  energy-stone/1200
+]
+isFirstTier: true
+size: 5
+squareSprite: false
+alwaysUnlocked: true
+unitType: sentinel
+armor: 16
+health: 2400
+itemCapacity: 1900
+unitCapModifier: 4
+category: effect
