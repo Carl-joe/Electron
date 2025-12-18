@@ -1,0 +1,52 @@
+{
+type: flying
+name: "Sentinel"
+rotateSpeed: 3
+template: ErekirUnitType
+coreUnitDock: true
+faceTarget: true
+lowAltitude: false
+mineWalls: false
+mineFloor: true
+mineHardnessScaling: false
+flying: true
+mineSpeed: 8
+mineTier: 1
+buildSpeed: 2
+speed: 7
+drag: 0.03
+accel: 0.03
+itemCapacity: 100
+health: 940
+armor: 12
+hitSize: 18
+engineSize: 0
+targetable : false
+hittable : false
+trailLength: 12
+isEnemy: false
+
+"weapons": [
+    {
+      "name": "sentinelNailGun", // Matches my-weapon-name.png
+      "x": -3,                  // Horizontal distance from center
+      "y": 3,                  // Vertical distance from center
+      "reload": 1,
+      "mirror": true,          // Automatically adds a second gun on the left side
+      "top": true,             // Draws the weapon on top of the unit body
+      "alternate": true
+      
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 10,
+        "speed": 7
+        "frontColor": "ffffff", // White core (makes it look like it's glowing)
+        "backColor": "00ffff",  // Pure Cyan glow
+        "lightColor": "00ffff", // The light it casts on the ground
+        "trailColor": "00ffff", 
+        "trailWidth": 2.5,
+        "trailLength": 8        // Long trails look amazing with fast firing!
+      }
+    }
+  ]
+}
