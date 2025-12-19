@@ -2,7 +2,7 @@ name: "electron"
 displayName: "Electron"
 author: Yourself
 description: "A mod about storms and power"
-version: "alpha-1"
+version: "alpha-2"
 minGameVersion: "154"
 dependencies: [ ]
 hidden: false
