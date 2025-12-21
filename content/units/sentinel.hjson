@@ -21,8 +21,8 @@ health: 940
 armor: 12
 hitSize: 18
 engineSize: 0
-targetable : false
-hittable : false
+targetable : true
+hittable : true
 trailLength: 12
 isEnemy: false
 
@@ -31,7 +31,7 @@ isEnemy: false
       "name": "sentinelNailGun", // Matches my-weapon-name.png
       "x": -3,                  // Horizontal distance from center
       "y": 3,                  // Vertical distance from center
-      "reload": 1,
+      "reload": 4,
       "mirror": true,          // Automatically adds a second gun on the left side
       "top": true,             // Draws the weapon on top of the unit body
       "alternate": true
