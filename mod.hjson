@@ -3,6 +3,6 @@ displayName: "Electron"
 author: Yourself
 description: "A mod about storms and power"
 version: "alpha-2"
-minGameVersion: "154"
+minGameVersion: "154.2"
 dependencies: [ ]
 hidden: false
